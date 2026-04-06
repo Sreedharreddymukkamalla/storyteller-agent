@@ -37,7 +37,7 @@ app.router.redirect_slashes = False
 
 AGENT_URL = os.getenv(
     "AGENT_PUBLIC_URL",
-    "https://storyteller-475756125529.us-central1.run.app/anime",
+    "https://storyteller-475756125529.us-central1.run.app/anime/",
 )
 
 agent_card = AgentCard(
